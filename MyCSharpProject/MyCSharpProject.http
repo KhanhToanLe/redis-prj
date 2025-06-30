@@ -1,0 +1,6 @@
+@MyCSharpProject_HostAddress = http://localhost:5285
+
+GET {{MyCSharpProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

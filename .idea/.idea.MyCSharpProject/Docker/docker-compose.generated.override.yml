@@ -1,0 +1,20 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  mycsharpproject:
+    build:
+      context: "C:\\Users\\ToanLK\\Desktop\\MyCSharpProject"
+      dockerfile: "./MyCSharpProject/Dockerfile"
+      target: "build"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/MyCSharpProject.dll"
+    environment: {}
+    image: "mycsharpproject:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\ToanLK\\Desktop\\MyCSharpProject\\MyCSharpProject:/app:rw"
+    - "C:\\Users\\ToanLK\\Desktop\\MyCSharpProject:/src:rw"
+    - "C:\\Users\\ToanLK\\.nuget\\packages:/root/.nuget/packages"
+    working_dir: "/app"
