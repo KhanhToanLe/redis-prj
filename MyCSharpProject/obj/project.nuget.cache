@@ -1,11 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "7/quk/rHuXs=",
+  "dgSpecHash": "As9lv6p8AYw=",
   "success": true,
   "projectFilePath": "C:\\Users\\ToanLK\\Desktop\\MyCSharpProject\\MyCSharpProject\\MyCSharpProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
-    "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.6\\microsoft.extensions.caching.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\9.0.6\\microsoft.extensions.caching.stackexchangeredis.9.0.6.nupkg.sha512",
+    "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.6\\microsoft.extensions.logging.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.extensions.options\\9.0.6\\microsoft.extensions.options.9.0.6.nupkg.sha512",
+    "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.6\\microsoft.extensions.primitives.9.0.6.nupkg.sha512",
+    "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\ToanLK\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\ToanLK\\.nuget\\packages\\stackexchange.redis\\2.8.41\\stackexchange.redis.2.8.41.nupkg.sha512",
+    "C:\\Users\\ToanLK\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

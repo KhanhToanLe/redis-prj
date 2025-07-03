@@ -8,35 +8,58 @@ services:
       dockerfile: ./MyCSharpProject/Dockerfile
     container_name: mycsharpproject
     ports:
-      - "8080:80"
+      - "8155:80"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:80
-      - Redis__Host=redis
+      - Redis__Host=localhost
       - Redis__Port=6380
       - Redis__Password=lekhanhtoan123
     depends_on:
       - redis
     restart: unless-stopped
-    networks:
-      - mycsharpproject-network
+#    networks:
+#      - mycsharpproject-network
 
   redis:
     image: redis:alpine
     container_name: redis-db
     ports:
-      - "6380:6380"
+      - "6380:6379"
     environment:
       - REDIS_PASSWORD=lekhanhtoan123
     volumes:
       - redis-data:/data
     command: sh -c "apk add --no-cache bash && redis-server --requirepass lekhanhtoan123"
-    networks:
-      - mycsharpproject-network
+#    networks:
+#      - mycsharpproject-network
 
-networks:
-  mycsharpproject-network:
-    driver: bridge
+  psql:
+    container_name: postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: lekhanhtoan123
+      PGDATA: /data/postgres
+      POSTGRES_DB: mycsharpproject
+    volumes:
+      - psql-data:/data/postgres
+    ports:
+      - "5332:5432"
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -d postgres" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+#    networks:
+#      - db
+
+#networks:
+#  mycsharpproject-network:
+#    driver: bridge
 
 volumes:
   redis-data:
+  psql-data:
+    

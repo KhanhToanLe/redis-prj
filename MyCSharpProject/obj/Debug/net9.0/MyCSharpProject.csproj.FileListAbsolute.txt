@@ -26,3 +26,12 @@ C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\obj\Debug\net9.0\refint\
 C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\obj\Debug\net9.0\MyCSharpProject.pdb
 C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\obj\Debug\net9.0\MyCSharpProject.genruntimeconfig.cache
 C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\obj\Debug\net9.0\ref\MyCSharpProject.dll
+C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\obj\Debug\net9.0\MyCSharpProject.sourcelink.json
+C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\bin\Debug\net9.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\bin\Debug\net9.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\ToanLK\Desktop\MyCSharpProject\MyCSharpProject\bin\Debug\net9.0\StackExchange.Redis.dll

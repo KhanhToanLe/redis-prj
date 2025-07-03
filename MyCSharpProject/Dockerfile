@@ -23,17 +23,12 @@ RUN apt-get update && \
 # Copy from build stage
 COPY --from=build /app/publish .
 
-# Environment variables
-ENV ASPNETCORE_ENVIRONMENT=Production
-ENV ASPNETCORE_URLS=http://+:80
-ENV DOTNET_RUNNING_IN_CONTAINER=true
-
 # Expose port
 EXPOSE 80
 
 # Health check (optional)
 HEALTHCHECK --interval=30s --timeout=3s --retries=3 \
-    CMD curl -f http://localhost/health || exit 1
+    CMD curl -f https://localhost/health || exit 1
 
 # Entry point
 ENTRYPOINT ["dotnet", "MyCSharpProject.dll"]
